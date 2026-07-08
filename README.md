@@ -35,27 +35,27 @@ A web-based Student Management System developed using Java Servlets, JDBC, Oracl
 
 ### Login Page
 
-![Login](images/login-page.png)
+![Login](/images/login-page.png)
 
 ### Home Page
 
-![Home](images/home-page.png)
+![Home](/images/home-page.png)
 
 ### Insert Student
 
-![Insert](images/insert-page.png)
+![Insert](/images/insert-page.png)
 
 ### Update Student
 
-![Update](images/update-page.png)
+![Update](/images/update-page.png)
 
 ### Delete Student
 
-![Delete](images/delete-page.png)
+![Delete](/images/delete-page.png)
 
 ### Search Student
 
-![Search](images/search-page.png)
+![Search](/images/search-page.png)
 
 ---
 
