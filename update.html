@@ -1,0 +1,129 @@
+<html>
+
+<head>
+
+<title>Update Student</title>
+
+<style>
+
+body
+{
+    margin:0;
+    padding:0;
+    background:linear-gradient(to right,#7B0000,#B22222,#FFD700);
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.container
+{
+    width:550px;
+    margin:40px auto;
+    background:white;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0px 0px 20px black;
+}
+
+h1
+{
+    color:#7B0000;
+    text-align:center;
+    margin-bottom:25px;
+}
+
+table
+{
+    width:100%;
+}
+
+td
+{
+    padding:10px;
+    font-size:18px;
+}
+
+input[type=text],
+input[type=number]
+{
+    width:100%;
+    padding:10px;
+    border:2px solid #7B0000;
+    border-radius:5px;
+    font-size:16px;
+}
+
+input[type=submit]
+{
+    background:#7B0000;
+    color:white;
+    border:none;
+    padding:12px 35px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover
+{
+    background:#B22222;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1> Update Student Details</h1>
+
+<form action="./update" method="post">
+
+<table>
+
+<tr>
+<td>Student ID</td>
+<td><input type="number" name="sid" required></td>
+</tr>
+
+<tr>
+<td>Student Name</td>
+<td><input type="text" name="sname" required></td>
+</tr>
+
+<tr>
+<td>Branch</td>
+<td><input type="text" name="branch" required></td>
+</tr>
+
+<tr>
+<td>Marks 1</td>
+<td><input type="number" name="m1" required></td>
+</tr>
+
+<tr>
+<td>Marks 2</td>
+<td><input type="number" name="m2" required></td>
+</tr>
+
+<tr>
+<td>Marks 3</td>
+<td><input type="number" name="m3" required></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Update Student">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</div>
+
+</body>
+
+</html>

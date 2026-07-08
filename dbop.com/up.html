@@ -1,0 +1,115 @@
+<html>
+
+<head>
+
+<title>Database Operations</title>
+
+<style>
+
+body
+{
+    margin:0;
+    padding:0;
+    background:linear-gradient(to right,#7B0000,#B22222,#FFD700);
+    font-family:Arial;
+}
+
+.header
+{
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 25px;
+}
+
+.title
+{
+    color:#FFD700;
+    font-size:38px;
+    font-weight:bold;
+    text-shadow:3px 3px 6px black;
+}
+
+.left
+{
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+}
+
+.right
+{
+    color:white;
+    text-align:right;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.status
+{
+    background:white;
+    color:#7B0000;
+    text-align:center;
+    padding:8px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<div class="left">
+
+👤 Logged in :
+<font color="gold">Administrator</font>
+
+</div>
+
+<div class="title">
+
+STUDENT MANAGEMENT SYSTEM
+
+</div>
+
+<div class="right">
+
+📅 <span id="date"></span><br>
+
+🕒 <span id="time"></span>
+
+</div>
+
+</div>
+
+<div class="status">
+
+🟢 Database Connected Successfully | Welcome to Student Management System
+
+</div>
+
+<script>
+
+function updateTime()
+{
+    var d=new Date();
+
+    document.getElementById("date").innerHTML=d.toLocaleDateString();
+
+    document.getElementById("time").innerHTML=d.toLocaleTimeString();
+}
+
+setInterval(updateTime,1000);
+
+updateTime();
+
+</script>
+
+</body>
+
+</html>
